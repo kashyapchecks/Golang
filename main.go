@@ -13,5 +13,6 @@ type Bill struct {
 
 func main() {
 	var a Bill =  Bill{Name: "Dosa" , Price:140, Quantity: "Two"}
+	
 	fmt.Println(a.Price)
 }
